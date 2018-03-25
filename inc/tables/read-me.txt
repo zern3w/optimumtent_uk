@@ -1,0 +1,1 @@
+names of the files in this folder, are the columns that are excluded, with the exception of backpacking that is unique to that page.

@@ -1,0 +1,1 @@
+<?php echo $AmazonPriceB00452C2IC.$spd ; ?>
