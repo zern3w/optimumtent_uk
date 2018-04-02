@@ -7,5 +7,5 @@
 		<br />
 			<?php echo $timestamp ?>
 		<br /><br />
-			<a class="white-text" href="http://localhost/optuk/privacy-disclaimer.php#last-update">More Details</a>
+			<a class="white-text" href="/privacy-disclaimer.php#last-update">More Details</a>
 		</blockquote>

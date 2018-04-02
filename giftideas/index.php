@@ -4,7 +4,7 @@
 <head>
 <?php include_once("../inc/noindex-dupes.php") ?>
 <?php include_once( "../inc/mysql_connect.php") ?>
-<link rel="canonical" href="http://localhost/optuk/giftideas/" />
+<link rel="canonical" href="/giftideas/" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
@@ -39,7 +39,7 @@
 	</div>
 
 	<div class="parallax">
-		<img class="hide-on-small-only" src="http://localhost/optuk/img/backgrounds/grand-canyon.jpg" alt="Backpacker overlooking the Grand Canyon"> <img class="show-on-small" src="http://localhost/optuk/img/backgrounds/grand-canyon-small.jpg" alt="Backpacker overlooking the Grand Canyon">
+		<img class="hide-on-small-only" src="/img/backgrounds/grand-canyon.jpg" alt="Backpacker overlooking the Grand Canyon"> <img class="show-on-small" src="/img/backgrounds/grand-canyon-small.jpg" alt="Backpacker overlooking the Grand Canyon">
 	</div>
 </div>
 
@@ -58,9 +58,9 @@
 						<div class="col s12 m12">
 							<blockquote>
 								<strong>(TOC)</strong>
-									&nbsp;&nbsp;<a href="http://localhost/optuk/giftideas/#cool-gadgets" > Cool Gadgets</a>
-									&nbsp;&nbsp; <a href="http://localhost/optuk/giftideas/#best-sellers" > Best Sellers</a>
-									&nbsp;&nbsp; <a href="http://localhost/optuk/giftideas/#other-ideas" > Other Ideas</a>
+									&nbsp;&nbsp;<a href="/giftideas/#cool-gadgets" > Cool Gadgets</a>
+									&nbsp;&nbsp; <a href="/giftideas/#best-sellers" > Best Sellers</a>
+									&nbsp;&nbsp; <a href="/giftideas/#other-ideas" > Other Ideas</a>
 							</blockquote>
 							<br />
 						</div>
@@ -465,7 +465,7 @@
 						<div class="valign-wrapper carousel-top">
 							<div class="card col s12 m11 pull-m1 hoverable">
 								<div class="card-content">
-									<a href="http://localhost/optuk/giftideas/pdf/500_Camping-Recipes.pdf" rel="nofollow" target="_blank" >
+									<a href="/giftideas/pdf/500_Camping-Recipes.pdf" rel="nofollow" target="_blank" >
 										<img src="images/random-products/500-camping-recipes.jpg" width="100%" height="auto" alt="Tired of eating the same old same old?" />
 									</a>
 								</div>
@@ -474,7 +474,7 @@
 						<p>
 							Just click the image above to get your Free 500 Recipes. Please #retweet or share!
 						<br />
-							<strong class="right"> Found on <a href="http://localhost/optuk/pdf/500_Camping-Recipes.pdf" rel="nofollow" target="_blank" >Amazon</a></strong>
+							<strong class="right"> Found on <a href="/pdf/500_Camping-Recipes.pdf" rel="nofollow" target="_blank" >Amazon</a></strong>
 						<br />
 						</p>
 					</div>

@@ -4,7 +4,7 @@
 <meta name="robots" content="noindex"/>
 </head>
 <body>
-<img src="http://localhost/optuk/img/bots/badspider.png">
+<img src="/img/bots/badspider.png">
 <?php include_once("../inc/analytics.php") ?>
 </body>
 </html>

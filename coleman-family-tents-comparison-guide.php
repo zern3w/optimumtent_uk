@@ -5,7 +5,7 @@
 <head>
 <meta name="robots" content="noindex"/>
 <?php include_once("inc/noindex-dupes.php") ?>
-<link rel="canonical" href="http://localhost/optuk/coleman-family-tents-comparison-guide.php" />
+<link rel="canonical" href="/coleman-family-tents-comparison-guide.php" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />

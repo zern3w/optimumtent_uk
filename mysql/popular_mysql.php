@@ -3,16 +3,16 @@
 
 //6 Person Tents
 
-		$query=mysql_query("SELECT * from all_tents WHERE Size = '6 persons' ORDER BY  ((MSRP - AmazonPrice)/ MSRP)  ")  or die(mysql_error());
+		$query=mysqli_query("SELECT * from all_tents WHERE Size = '6 persons' ORDER BY  ((MSRP - AmazonPrice)/ MSRP)  ") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		$MaxSixPersonTentsDiscount = ((($res['MSRP'] - $res['AmazonPrice']) / $res['MSRP'])*100);
-		$TotalSixPersonTents = mysql_num_rows($query);
+		$TotalSixPersonTents = mysqli_num_rows($query);
 
-		$query=mysql_query("SELECT MIN(AmazonPrice) AS AmazonPrice from all_tents WHERE Size = '6 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MIN(AmazonPrice) AS AmazonPrice from all_tents WHERE Size = '6 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -21,9 +21,9 @@
 		}
 
 
-		$query=mysql_query("SELECT MIN(Area) AS Area from all_tents WHERE Size = '6 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MIN(Area) AS Area from all_tents WHERE Size = '6 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -32,9 +32,9 @@
 		}
 
 
-		$query=mysql_query("SELECT MAX(Area) AS Area from all_tents WHERE Size = '6 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MAX(Area) AS Area from all_tents WHERE Size = '6 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -44,9 +44,9 @@
 
 
 
-		$query=mysql_query("SELECT SUM(Reviews) AS Reviews from all_tents WHERE Size = '6 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT SUM(Reviews) AS Reviews from all_tents WHERE Size = '6 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -55,11 +55,11 @@
 		}
 
 
-		$query=mysql_query("SELECT DISTINCT Brand from all_tents WHERE Size = '6 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT DISTINCT Brand from all_tents WHERE Size = '6 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
-		$TotalSixPersonTentBrands= mysql_num_rows($query);
+		$TotalSixPersonTentBrands= mysqli_num_rows($query);
 
 
 
@@ -72,16 +72,16 @@
 
 //Dome Tents
 
-		$query=mysql_query("SELECT * from all_tents WHERE Type = 'Dome Tent' ORDER BY  ((MSRP - AmazonPrice)/ MSRP)  ")  or die(mysql_error());
+		$query=mysqli_query("SELECT * from all_tents WHERE Type = 'Dome Tent' ORDER BY  ((MSRP - AmazonPrice)/ MSRP)  ") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		$MaxDomeTentsDiscount = ((($res['MSRP'] - $res['AmazonPrice']) / $res['MSRP'])*100);
-		$TotalDomeTents = mysql_num_rows($query);
+		$TotalDomeTents = mysqli_num_rows($query);
 
-		$query=mysql_query("SELECT MIN(AmazonPrice) AS AmazonPrice from all_tents WHERE Type = 'Dome Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MIN(AmazonPrice) AS AmazonPrice from all_tents WHERE Type = 'Dome Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -90,9 +90,9 @@
 		}
 
 
-		$query=mysql_query("SELECT MIN(Area) AS Area from all_tents WHERE Type = 'Dome Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MIN(Area) AS Area from all_tents WHERE Type = 'Dome Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -101,9 +101,9 @@
 		}
 
 
-		$query=mysql_query("SELECT MAX(Area) AS Area from all_tents WHERE Type = 'Dome Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MAX(Area) AS Area from all_tents WHERE Type = 'Dome Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -113,9 +113,9 @@
 
 
 
-		$query=mysql_query("SELECT SUM(Reviews) AS Reviews from all_tents WHERE Type = 'Dome Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT SUM(Reviews) AS Reviews from all_tents WHERE Type = 'Dome Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -124,11 +124,11 @@
 		}
 
 
-		$query=mysql_query("SELECT DISTINCT Brand from all_tents WHERE Type = 'Dome Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT DISTINCT Brand from all_tents WHERE Type = 'Dome Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
-		$TotalDomeTentBrands = mysql_num_rows($query);
+		$TotalDomeTentBrands = mysqli_num_rows($query);
 
 
 
@@ -136,16 +136,16 @@
 
 //4 Person Tents
 
-		$query=mysql_query("SELECT * from all_tents WHERE Size = '4 persons' ORDER BY  ((MSRP - AmazonPrice)/ MSRP)  ")  or die(mysql_error());
+		$query=mysqli_query("SELECT * from all_tents WHERE Size = '4 persons' ORDER BY  ((MSRP - AmazonPrice)/ MSRP)  ") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		$MaxFourPersonTentsDiscount = ((($res['MSRP'] - $res['AmazonPrice']) / $res['MSRP'])*100);
-		$TotalFourPersonTents = mysql_num_rows($query);
+		$TotalFourPersonTents = mysqli_num_rows($query);
 
-		$query=mysql_query("SELECT MIN(AmazonPrice) AS AmazonPrice from all_tents WHERE Size = '4 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MIN(AmazonPrice) AS AmazonPrice from all_tents WHERE Size = '4 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -154,9 +154,9 @@
 		}
 
 
-		$query=mysql_query("SELECT MIN(Area) AS Area from all_tents WHERE Size = '4 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MIN(Area) AS Area from all_tents WHERE Size = '4 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -165,9 +165,9 @@
 		}
 
 
-		$query=mysql_query("SELECT MAX(Area) AS Area from all_tents WHERE Size = '4 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MAX(Area) AS Area from all_tents WHERE Size = '4 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -177,9 +177,9 @@
 
 
 
-		$query=mysql_query("SELECT SUM(Reviews) AS Reviews from all_tents WHERE Size = '4 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT SUM(Reviews) AS Reviews from all_tents WHERE Size = '4 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -188,11 +188,11 @@
 		}
 
 
-		$query=mysql_query("SELECT DISTINCT Brand from all_tents WHERE Size = '4 persons'")  or die(mysql_error());
+		$query=mysqli_query("SELECT DISTINCT Brand from all_tents WHERE Size = '4 persons'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
-		$TotalFourPersonTentBrands= mysql_num_rows($query);
+		$TotalFourPersonTentBrands= mysqli_num_rows($query);
 
 
 
@@ -201,16 +201,16 @@
 
 //Cabin Tents
 
-		$query=mysql_query("SELECT * from all_tents WHERE Type = 'Cabin Tent' ORDER BY  ((MSRP - AmazonPrice)/ MSRP)  ")  or die(mysql_error());
+		$query=mysqli_query("SELECT * from all_tents WHERE Type = 'Cabin Tent' ORDER BY  ((MSRP - AmazonPrice)/ MSRP)  ") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		$MaxCabinTentsDiscount = ((($res['MSRP'] - $res['AmazonPrice']) / $res['MSRP'])*100);
-		$TotalCabinTents = mysql_num_rows($query);
+		$TotalCabinTents = mysqli_num_rows($query);
 
-		$query=mysql_query("SELECT MIN(AmazonPrice) AS AmazonPrice from all_tents WHERE Type = 'Cabin Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MIN(AmazonPrice) AS AmazonPrice from all_tents WHERE Type = 'Cabin Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -219,9 +219,9 @@
 		}
 
 
-		$query=mysql_query("SELECT MIN(Area) AS Area from all_tents WHERE Type = 'Cabin Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MIN(Area) AS Area from all_tents WHERE Type = 'Cabin Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -230,9 +230,9 @@
 		}
 
 
-		$query=mysql_query("SELECT MAX(Area) AS Area from all_tents WHERE Type = 'Cabin Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT MAX(Area) AS Area from all_tents WHERE Type = 'Cabin Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -242,9 +242,9 @@
 
 
 
-		$query=mysql_query("SELECT SUM(Reviews) AS Reviews from all_tents WHERE Type = 'Cabin Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT SUM(Reviews) AS Reviews from all_tents WHERE Type = 'Cabin Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
 		{
 
@@ -253,11 +253,11 @@
 		}
 
 
-		$query=mysql_query("SELECT DISTINCT Brand from all_tents WHERE Type = 'Cabin Tent'")  or die(mysql_error());
+		$query=mysqli_query("SELECT DISTINCT Brand from all_tents WHERE Type = 'Cabin Tent'") ;
 
-		while($res=mysql_fetch_array($query))
+		while($res=mysqli_fetch_array($query))
 
-		$TotalCabinTentBrands = mysql_num_rows($query);
+		$TotalCabinTentBrands = mysqli_num_rows($query);
 
 
 

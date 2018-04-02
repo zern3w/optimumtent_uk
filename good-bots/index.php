@@ -4,8 +4,8 @@
 <meta name="robots" content="noindex"/>
 </head>
 <body>
-<img src="http://localhost/optuk/img/bots/goodspider.png">
-<a href="http://localhost/optuk/">Home</a>
+<img src="/img/bots/goodspider.png">
+<a href="/">Home</a>
 
 <?php include_once("../inc/analytics.php") ?>
 </body>

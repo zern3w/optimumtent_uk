@@ -101,7 +101,7 @@
 
 				echo '<td>';
 
-				echo  $AmazonPrice.' <a href="http://www.optimumtents.com/privacy-disclaimer.php#last-update" rel="nofollow"><i class="material-icons price-info-tables" title=" '.$TitlePrice.' ( as of '.substr($res['LastUpdate'], 0, -3).' PST) - More info ">info_outline</i></a>';
+				echo  $AmazonPrice.' <a href="/privacy-disclaimer.php#last-update" rel="nofollow"><i class="material-icons price-info-tables" title=" '.$TitlePrice.' ( as of '.substr($res['LastUpdate'], 0, -3).' PST) - More info ">info_outline</i></a>';
 
 				echo '<br /><a href="http://www.amazon.com/exec/obidos/ASIN/'.$res['Asin']. '/fstents-20" rel="nofollow" target="_blank">'.$CheckInStock.'</a>';
 

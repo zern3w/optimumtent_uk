@@ -29,8 +29,8 @@ $totaltopten = 7 ;
 $topdiff = "4" ;
 $montanaposition = 18 ;
 
-$spd = ' <a  href="http://localhost/optuk/privacy-disclaimer.php#last-update" rel="nofollow"><i class="material-icons price-info" title=" Price on Amazon.com: ( as of '.$timestamp.') - More info ">info_outline</i></a>';
-$gpd = ' <a  href="http://localhost/optuk/privacy-disclaimer.php#last-update" rel="nofollow"><i class="material-icons price-info" title=" Prices on Amazon.com: ( as of '.$timestamp.') - More info ">info_outline</i></a>';
+$spd = ' <a  href="/privacy-disclaimer.php#last-update" rel="nofollow"><i class="material-icons price-info" title=" Price on Amazon.com: ( as of '.$timestamp.') - More info ">info_outline</i></a>';
+$gpd = ' <a  href="/privacy-disclaimer.php#last-update" rel="nofollow"><i class="material-icons price-info" title=" Prices on Amazon.com: ( as of '.$timestamp.') - More info ">info_outline</i></a>';
 
 $background = '<img src="img/backgrounds/campsite.jpg" alt="campsite">';
 $bgcoleman = '<img src="img/backgrounds/coleman-camping.jpg" alt="coleman camping">';

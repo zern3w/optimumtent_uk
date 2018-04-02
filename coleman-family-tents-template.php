@@ -7,7 +7,7 @@
 <head>
 <?php include_once("inc/noindex-dupes.php") ?>
 
-<link rel="canonical" href="http://localhost/optuk/coleman-family-tents.php" />
+<link rel="canonical" href="/coleman-family-tents.php" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
@@ -76,14 +76,14 @@
 				<h2>Top Rated <?php echo $uc_type ?> Tents</h2>
 					<p>
 						<?php echo ucwords (NumbersToWords::convert($TotalTopRated)); ?> of the  <?php echo strtolower(ucwords (NumbersToWords::convert($TotalTents))) ;?> tents have what one could consider awesome ratings along with lots of reviews.
-							The one with the best overall score is <?php echo $TopRated1Brand ?>'s <a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $TopRated1aname ?>"><?php echo $TopRated1Model ?></a> <i>"pictured below"</i>
+							The one with the best overall score is <?php echo $TopRated1Brand ?>'s <a href="/coleman-family-tents-comparison-guide.php#<?php echo $TopRated1aname ?>"><?php echo $TopRated1Model ?></a> <i>"pictured below"</i>
 					</p>
 
 					</p>
 						<div class="valign-wrapper carousel-top">
 							<div class="card col s12 m10 offset-m1 hoverable">
 								<div class="card-content">
-								<a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $TopRated1aname ?>"><img src="img/large/<?php echo $TopRated1Image ;?>" width="100%" height="auto" alt="<?php echo $TopRated1Brand ?> <?php echo $TopRated1Model ?> tent" ></a>
+								<a href="/coleman-family-tents-comparison-guide.php#<?php echo $TopRated1aname ?>"><img src="img/large/<?php echo $TopRated1Image ;?>" width="100%" height="auto" alt="<?php echo $TopRated1Brand ?> <?php echo $TopRated1Model ?> tent" ></a>
 								</div>
 							</div>
 						</div>
@@ -168,11 +168,11 @@
 							<td><a href="<?php echo $TopRated4Manufacture; ?>"><?php echo $TopRated4Brand ;?> </a></td>
 							<td><a href="<?php echo $TopRated5Manufacture; ?>"><?php echo $TopRated5Brand ;?> </a></td>
 							</tr><tr>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $TopRated1aname ?>"><img src="img/tables/<?php echo $TopRated1Image; ?>" width="50" height="auto" border=0></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $TopRated2aname ?>"><img src="img/tables/<?php echo $TopRated2Image; ?>" width="50" height="auto" border=0></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $TopRated3aname ?>"><img src="img/tables/<?php echo $TopRated3Image; ?>" width="50" height="auto" border=0></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $TopRated4aname ?>"><img src="img/tables/<?php echo $TopRated4Image; ?>" width="50" height="auto" border=0></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $TopRated5aname ?>"><img src="img/tables/<?php echo $TopRated5Image; ?>" width="50" height="auto" border=0></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $TopRated1aname ?>"><img src="img/tables/<?php echo $TopRated1Image; ?>" width="50" height="auto" border=0></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $TopRated2aname ?>"><img src="img/tables/<?php echo $TopRated2Image; ?>" width="50" height="auto" border=0></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $TopRated3aname ?>"><img src="img/tables/<?php echo $TopRated3Image; ?>" width="50" height="auto" border=0></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $TopRated4aname ?>"><img src="img/tables/<?php echo $TopRated4Image; ?>" width="50" height="auto" border=0></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $TopRated5aname ?>"><img src="img/tables/<?php echo $TopRated5Image; ?>" width="50" height="auto" border=0></a></td>
 						</tr>
 						</table>
 					</div>
@@ -195,13 +195,13 @@
 						<div class="valign-wrapper carousel-top">
 							<div class="card col s12 m10 offset-m1 hoverable">
 								<div class="card-content">
-									<a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $BestValue1aname ?>"><img src="img/large/<?php echo $BestValue1Image ;?>" width="100%" height="auto" alt="<?php echo $BestValue1Brand ?> <?php echo $BestValue1Model ?> tent" ></a>
+									<a href="/coleman-family-tents-comparison-guide.php#<?php echo $BestValue1aname ?>"><img src="img/large/<?php echo $BestValue1Image ;?>" width="100%" height="auto" alt="<?php echo $BestValue1Brand ?> <?php echo $BestValue1Model ?> tent" ></a>
 								</div>
 							</div>
 						</div>
 					<p>
 						Best of the <?php echo strtolower(ucwords (NumbersToWords::convert($TotalBestValue))); ?>
-						is <?php echo $BestValue1Brand ?>'s <a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $BestValue1aname ?>"><?php echo $BestValue1Model ?></a> <i>"pictured above"</i>
+						is <?php echo $BestValue1Brand ?>'s <a href="/coleman-family-tents-comparison-guide.php#<?php echo $BestValue1aname ?>"><?php echo $BestValue1Model ?></a> <i>"pictured above"</i>
 					</p>
 
 					<div class="table-container z-depth-4">
@@ -285,11 +285,11 @@
 							<td><a href="<?php echo $BestValue4Manufacture; ?>"><?php echo $BestValue4Brand ;?> </a></td>
 							<td><a href="<?php echo $BestValue5Manufacture; ?>"><?php echo $BestValue5Brand ;?> </a></td>
 							</tr><tr>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $BestValue1aname ?>"><img src="img/tables/<?php echo $BestValue1Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $BestValue2aname ?>"><img src="img/tables/<?php echo $BestValue2Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $BestValue3aname ?>"><img src="img/tables/<?php echo $BestValue3Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $BestValue4aname ?>"><img src="img/tables/<?php echo $BestValue4Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $BestValue5aname ?>"><img src="img/tables/<?php echo $BestValue5Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $BestValue1aname ?>"><img src="img/tables/<?php echo $BestValue1Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $BestValue2aname ?>"><img src="img/tables/<?php echo $BestValue2Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $BestValue3aname ?>"><img src="img/tables/<?php echo $BestValue3Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $BestValue4aname ?>"><img src="img/tables/<?php echo $BestValue4Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $BestValue5aname ?>"><img src="img/tables/<?php echo $BestValue5Image; ?>" width="50" height="auto" ></a></td>
 						</tr>
 						</table>
 					</div>
@@ -308,13 +308,13 @@
 						<div class="valign-wrapper carousel-top">
 							<div class="card col s12 m10 offset-m1 hoverable">
 								<div class="card-content">
-									<a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Largest1aname ?>"><img src="img/large/<?php echo $Largest1Image ;?>" width="100%" height="auto" alt="<?php echo $Largest1Brand ?> <?php echo $Largest1Model ?> tent" ></a>
+									<a href="/coleman-family-tents-comparison-guide.php#<?php echo $Largest1aname ?>"><img src="img/large/<?php echo $Largest1Image ;?>" width="100%" height="auto" alt="<?php echo $Largest1Brand ?> <?php echo $Largest1Model ?> tent" ></a>
 								</div>
 							</div>
 						</div>
 					<p>
 						Largest of the <?php echo strtolower(ucwords (NumbersToWords::convert($TotalLargest))); ?>
-						is <?php echo $Largest1Brand ?>'s <a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Largest1aname ?>"><?php echo $Largest1Model ?></a> <i>"pictured above"</i>
+						is <?php echo $Largest1Brand ?>'s <a href="/coleman-family-tents-comparison-guide.php#<?php echo $Largest1aname ?>"><?php echo $Largest1Model ?></a> <i>"pictured above"</i>
 					</p>
 
 
@@ -399,11 +399,11 @@
 							<td><a href="<?php echo $Largest4Manufacture; ?>"><?php echo $Largest4Brand ;?> </a></td>
 							<td><a href="<?php echo $Largest5Manufacture; ?>"><?php echo $Largest5Brand ;?> </a></td>
 							</tr><tr>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Largest1aname ?>"><img src="img/tables/<?php echo $Largest1Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Largest2aname ?>"><img src="img/tables/<?php echo $Largest2Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Largest3aname ?>"><img src="img/tables/<?php echo $Largest3Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Largest4aname ?>"><img src="img/tables/<?php echo $Largest4Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Largest5aname ?>"><img src="img/tables/<?php echo $Largest5Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Largest1aname ?>"><img src="img/tables/<?php echo $Largest1Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Largest2aname ?>"><img src="img/tables/<?php echo $Largest2Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Largest3aname ?>"><img src="img/tables/<?php echo $Largest3Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Largest4aname ?>"><img src="img/tables/<?php echo $Largest4Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Largest5aname ?>"><img src="img/tables/<?php echo $Largest5Image; ?>" width="50" height="auto" ></a></td>
 						</tr>
 						</table>
 					</div>
@@ -423,13 +423,13 @@
 						<div class="valign-wrapper carousel-top">
 							<div class="card col s12 m10 offset-m1 hoverable">
 								<div class="card-content">
-									<a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest1aname ?>"><img src="img/large/<?php echo $Cheapest1Image ;?>" width="100%" height="auto" alt="<?php echo $Cheapest1Brand ?> <?php echo $Cheapest1Model ?> tent" ></a>
+									<a href="/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest1aname ?>"><img src="img/large/<?php echo $Cheapest1Image ;?>" width="100%" height="auto" alt="<?php echo $Cheapest1Brand ?> <?php echo $Cheapest1Model ?> tent" ></a>
 								</div>
 							</div>
 						</div>
 					<p>
 						Cheapest of the <?php echo strtolower(ucwords (NumbersToWords::convert($TotalCheapest))); ?>
-						is <?php echo $Cheapest1Brand ?>'s <a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest1aname ?>"><?php echo $Cheapest1Model ?></a> <i>"pictured above"</i>
+						is <?php echo $Cheapest1Brand ?>'s <a href="/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest1aname ?>"><?php echo $Cheapest1Model ?></a> <i>"pictured above"</i>
 					</p>
 
 					<div class="table-container z-depth-4">
@@ -513,11 +513,11 @@
 							<td><a href="<?php echo $Cheapest4Manufacture; ?>"><?php echo $Cheapest4Brand ;?> </a></td>
 							<td><a href="<?php echo $Cheapest5Manufacture; ?>"><?php echo $Cheapest5Brand ;?> </a></td>
 							</tr><tr>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest1aname ?>"><img src="img/tables/<?php echo $Cheapest1Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest2aname ?>"><img src="img/tables/<?php echo $Cheapest2Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest3aname ?>"><img src="img/tables/<?php echo $Cheapest3Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest4aname ?>"><img src="img/tables/<?php echo $Cheapest4Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest5aname ?>"><img src="img/tables/<?php echo $Cheapest5Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest1aname ?>"><img src="img/tables/<?php echo $Cheapest1Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest2aname ?>"><img src="img/tables/<?php echo $Cheapest2Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest3aname ?>"><img src="img/tables/<?php echo $Cheapest3Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest4aname ?>"><img src="img/tables/<?php echo $Cheapest4Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Cheapest5aname ?>"><img src="img/tables/<?php echo $Cheapest5Image; ?>" width="50" height="auto" ></a></td>
 						</tr>
 						</table>
 					</div>
@@ -536,13 +536,13 @@
 						<div class="valign-wrapper carousel-top">
 							<div class="card col s12 m10 offset-m1 hoverable">
 								<div class="card-content">
-									<a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Popular1aname ?>"><img src="img/large/<?php echo $Popular1Image ;?>" width="100%" height="auto" alt="<?php echo $Popular1Brand ?> <?php echo $Popular1Model ?> tent" ></a>
+									<a href="/coleman-family-tents-comparison-guide.php#<?php echo $Popular1aname ?>"><img src="img/large/<?php echo $Popular1Image ;?>" width="100%" height="auto" alt="<?php echo $Popular1Brand ?> <?php echo $Popular1Model ?> tent" ></a>
 								</div>
 							</div>
 						</div>
 					<p>
 						Most Popular of the <?php echo strtolower(ucwords (NumbersToWords::convert($TotalPopular))); ?>
-						is <?php echo $Popular1Brand ?>'s <a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Popular1aname ?>"><?php echo $Popular1Model ?></a> <i>"pictured above"</i>
+						is <?php echo $Popular1Brand ?>'s <a href="/coleman-family-tents-comparison-guide.php#<?php echo $Popular1aname ?>"><?php echo $Popular1Model ?></a> <i>"pictured above"</i>
 					</p>
 
 					<div class="table-container z-depth-4">
@@ -626,11 +626,11 @@
 							<td><a href="<?php echo $Popular4Manufacture; ?>"><?php echo $Popular4Brand ;?> </a></td>
 							<td><a href="<?php echo $Popular5Manufacture; ?>"><?php echo $Popular5Brand ;?> </a></td>
 							</tr><tr>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Popular1aname ?>"><img src="img/tables/<?php echo $Popular1Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Popular2aname ?>"><img src="img/tables/<?php echo $Popular2Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Popular3aname ?>"><img src="img/tables/<?php echo $Popular3Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Popular4aname ?>"><img src="img/tables/<?php echo $Popular4Image; ?>" width="50" height="auto" ></a></td>
-							<td><a href="http://localhost/optuk/coleman-family-tents-comparison-guide.php#<?php echo $Popular5aname ?>"><img src="img/tables/<?php echo $Popular5Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Popular1aname ?>"><img src="img/tables/<?php echo $Popular1Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Popular2aname ?>"><img src="img/tables/<?php echo $Popular2Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Popular3aname ?>"><img src="img/tables/<?php echo $Popular3Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Popular4aname ?>"><img src="img/tables/<?php echo $Popular4Image; ?>" width="50" height="auto" ></a></td>
+							<td><a href="/coleman-family-tents-comparison-guide.php#<?php echo $Popular5aname ?>"><img src="img/tables/<?php echo $Popular5Image; ?>" width="50" height="auto" ></a></td>
 						</tr>
 						</table>
 					</div>

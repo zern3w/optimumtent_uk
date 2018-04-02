@@ -1,8 +1,8 @@
 <?php
 
-	$query=mysql_query("SELECT * from all_tents WHERE Asin='B001TSCF96'")  or die(mysql_error());
+	$query=mysqli_query("SELECT * from all_tents WHERE Asin='B001TSCF96'");
 
-	while($res=mysql_fetch_array($query))
+	while($res=mysqli_fetch_array($query))
 
 	{
 
